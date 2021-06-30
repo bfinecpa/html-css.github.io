@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+html
+{
+    font-family: 'Roboto', sans-serif;
+}
 
 .top_bar 
 {
@@ -11,11 +15,10 @@
     opacity: 1;
     top: 0px;
     left: 0px;
-    width: 1920px;
+    width: 100%;
     height: 87px;
     font: normal normal medium 12px/14px Roboto;
     padding-top: 30px;
-    
 }
 
 .b1
@@ -112,7 +115,7 @@
     font-variant: normal;
     font-weight: medium;
     line-height: 14px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -312,6 +315,7 @@
 }
 .b12
 {
+    display: flex;
     position: relative;
     top: 260px;
     left: 0px;
@@ -324,17 +328,152 @@
 }
 .b12_1
 {
-    
+    position: relative;
+    top: 10px;
+    left: 16px;
+    width: 145px;
+    height: 26px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 8px #0000001A;
+    border-radius: 5px;
+    opacity: 1;
+}
+.b12_1 img
+{
+    position: relative;
+    left: 4px;
+    top: -1px;
+}
+.b12_1 span
+{
+    width: 116px;
+    height: 15px;
+    text-align: left;
+    font: normal normal medium 12px/14px Roboto;
+    line-height: 14px;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: medium;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.b12_2
+{
+    position: relative;
+    top: 10px;
+    left: 23px;
+    width: 63px;
+    height: 26px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 8px #00000019;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.b12_2 span
+{
+    position: relative;
+    left: 6px;
+    width: 64px;
+    height: 15px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: medium;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
 }
 
 .b13
 {
-    position: relative;
-    top: 261px;
-    
+    display: flex;    
     left: 0px;
     width: 249px;
-    height: 44px;
+    height: 41px;
     background: #F4F5F6 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
+.b13_1
+{
+    position: relative;
+    top: 9px;
+    left: 16px;
+    width: 116px;
+    height: 26px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 8px #0000001A;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.b13_2
+{
+    position: relative;
+    top: 9px;
+    left: 25px;
+    width: 92px;
+    height: 26px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 8px #00000019;
+    border-radius: 5px;
+    opacity: 1;
+}
+.b13_1 img
+{
+    position: relative;
+    left: 5px;
+    width: 18px;
+    height: 18px;
+
+}
+.b13_1 span
+{   
+    position: relative;
+    left: 3px;
+    width: 80px;
+    height: 15px;
+    text-align: left;
+    line-height: 14px;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: medium;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.b13_2 img
+{
+    position: relative;
+    left: 5px;
+    width: 18px;
+    height: 18px;
+
+}
+.b13_2 span
+{   
+    position: relative;
+    left: 3px;
+    width: 80px;
+    height: 15px;
+    text-align: left;
+    line-height: 14px;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: medium;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+/*<d class="fixed-bottom">...</d
